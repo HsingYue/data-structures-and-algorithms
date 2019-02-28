@@ -1,5 +1,7 @@
 package ink.hsingyue.array;
 
+import java.util.Arrays;
+
 public class Test {
 
     public static void main(String[] args) {
@@ -28,7 +30,6 @@ public class Test {
 
 //        arr.removeLast();
 //        System.out.println(arr);
-
 
 
     }
