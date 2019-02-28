@@ -128,6 +128,7 @@ public class Array<E> {
             data[i - 1] = data[i];
         }
         size--;
+        data[size] = null;  //loitering object
 
         //为了防止复杂度震荡，采用lazy的策略，即当size == capacity / 4 时，才将capacity减半
         if (size == data.length / 4 && data.length / 2 != 0) {
